@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#d946ef" />
+  <meta name="description" content="Formulir pendaftaran JIA Fans Club Indonesia — tempat berkumpulnya fans dengan penuh cinta, bintang, dan musik." />
+  <title>JIA Fans Club Indonesia ✦ Join the Starlight</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  <div class="site-root">
+    <div class="ambient" id="ambient" aria-hidden="true"></div>
+
+    <header class="topbar">
+      <div class="brand">
+        <div class="brand-mark" aria-hidden="true">✦</div>
+        <div>
+          <div class="brand-title">JIA FANS CLUB</div>
+          <div class="brand-subtitle">Indonesia · Official fan community</div>
+        </div>
+      </div>
+      <div class="top-badge"><span class="live-dot"></span> STARDUST MODE: ON ✧</div>
+    </header>
+
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-panel">
+        <div class="hero-copy">
+          <div class="eyebrow">✧ Welcome to our universe ✧</div>
+          <h1 id="hero-title">Let's shine <span>together!</span></h1>
+          <p class="hero-desc">Satu fandom, sejuta cerita. Yuk gabung ke <strong>JIA FANS CLUB INDONESIA</strong> — rumah kecil penuh inspirasi, persahabatan, bunga, dan bintang untuk semua JIA fans! ♡</p>
+          <div class="hero-actions">
+            <a class="btn btn-white" href="#daftar">♡ Daftar Sekarang</a>
+            <a class="btn btn-glass" href="#anggota">✦ Lihat Anggota</a>
+          </div>
+          <div class="equalizer" aria-label="Animasi equalizer konser"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+        </div>
+        <div class="hero-art" aria-label="Maskot lucu bertema bintang">
+          <div class="orbit"></div>
+          <div class="mascot" aria-hidden="true">🐰</div>
+          <div class="mascot-label">you are my starlight ✨</div>
+        </div>
+      </div>
+    </section>
+
+    <main class="main-wrap">
+      <section id="daftar" aria-labelledby="form-title">
+        <div class="section-heading">
+          <div>
+            <div class="section-kicker">✿ Become one of us</div>
+            <h2 id="form-title">Formulir Pendaftaran</h2>
+            <p class="section-note">Isi data kamu dengan benar, lalu bersiap untuk bersinar bersama keluarga JIA FC INDONESIA! 💗</p>
+          </div>
+          <div class="top-badge">💌 Membership is free</div>
+        </div>
+
+        <div class="form-layout">
+          <div class="panel form-panel">
+            <div class="panel-title-row">
+              <div class="panel-icon" aria-hidden="true">📝</div>
+              <div><h3>Data calon starlight</h3><p>Kolom bertanda <span class="required">*</span> wajib diisi.</p></div>
+            </div>
+
+            <form id="registrationForm" novalidate>
+              <div class="form-grid">
+                <div class="field">
+                  <label for="fullName">Nama lengkap <span class="required">*</span></label>
+                  <input class="control" id="fullName" name="fullName" type="text" maxlength="80" placeholder="Nama sesuai identitas" autocomplete="name" required />
+                </div>
+                <div class="field">
+                  <label for="nickname">Nama panggilan / username <span class="required">*</span></label>
+                  <input class="control" id="nickname" name="nickname" type="text" maxlength="30" placeholder="Contoh: jia_starlight" required />
+                </div>
+                <div class="field">
+                  <label for="email">Email aktif <span class="required">*</span></label>
+                  <input class="control" id="email" name="email" type="email" maxlength="120" placeholder="kamu@email.com" autocomplete="email" required />
+                </div>
+                <div class="field">
+                  <label for="whatsapp">Nomor WhatsApp <span class="required">*</span></label>
+                  <input class="control" id="whatsapp" name="whatsapp" type="tel" maxlength="20" inputmode="tel" placeholder="08xxxxxxxxxx / +62..." autocomplete="tel" required />
+                </div>
+                <div class="field">
+                  <label for="birthDate">Tanggal lahir <span class="required">*</span></label>
+                  <input class="control" id="birthDate" name="birthDate" type="date" required />
+                </div>
+                <div class="field">
+                  <label for="gender">Gender (opsional)</label>
+                  <select class="control" id="gender" name="gender">
+                    <option value="">Pilih jika ingin</option>
+                    <option>Perempuan</option>
+                    <option>Laki-laki</option>
+                    <option>Gak jelas</option>
+                    <option>Privasi</option>
+                  </select>
+                </div>
+                <div class="field">
+                  <label for="province">Provinsi <span class="required">*</span></label>
+                  <select class="control" id="province" name="province" required>
+                    <option value="">Pilih provinsi</option>
+                    <option>Aceh</option><option>Sumatera Utara</option><option>Sumatera Barat</option><option>Riau</option><option>Kepulauan Riau</option><option>Jambi</option><option>Sumatera Selatan</option><option>Kepulauan Bangka Belitung</option><option>Bengkulu</option><option>Lampung</option>
+                    <option>DKI Jakarta</option><option>Jawa Barat</option><option>Jawa Tengah</option><option>DI Yogyakarta</option><option>Jawa Timur</option><option>Banten</option><option>Bali</option><option>Nusa Tenggara Barat</option><option>Nusa Tenggara Timur</option>
+                    <option>Kalimantan Barat</option><option>Kalimantan Tengah</option><option>Kalimantan Selatan</option><option>Kalimantan Timur</option><option>Kalimantan Utara</option>
+                    <option>Sulawesi Utara</option><option>Sulawesi Tengah</option><option>Sulawesi Selatan</option><option>Sulawesi Tenggara</option><option>Gorontalo</option><option>Sulawesi Barat</option>
+                    <option>Maluku</option><option>Maluku Utara</option><option>Papua</option><option>Papua Barat</option><option>Papua Selatan</option><option>Papua Tengah</option><option>Papua Pegunungan</option><option>Papua Barat Daya</option><option>Di luar Indonesia</option>
+                  </select>
+                </div>
+                <div class="field">
+                  <label for="city">Kota / kabupaten <span class="required">*</span></label>
+                  <input class="control" id="city" name="city" type="text" maxlength="60" placeholder="Kota tempat tinggal" required />
+                </div>
+                <div class="field">
+                  <label for="bias">Kesukaan / hal favorit</label>
+                  <select class="control" id="bias" name="bias">
+                    <option value="">Pilih favorit kamu</option>
+                    <option>JIA ✨</option>
+                    <option>Tausiah</option>
+                    <option>Musik Cover</option>
+                    <option>Mukbang</option>
+                    <option>Kuis aneh-aneh</option>
+                    <option>Belum menentukan</option>
+                  </select>
+                </div>
+                <div class="field">
+                  <label for="platform">Paling aktif di mana?</label>
+                  <select class="control" id="platform" name="platform">
+                    <option value="">Pilih platform</option>
+                    <option>Grub WA Zodiac</option><option>Threads</option><option>Instagram</option><option>Facebook</option><option>YouTube</option><option>Pondok pesantren</option><option>Coffee Shop</option><option>Lainnya</option>
+                  </select>
+                </div>
+                <div class="field full">
+                  <label for="reason">Kenapa ingin bergabung? <span class="required">*</span></label>
+                  <textarea class="control" id="reason" name="reason" maxlength="500" placeholder="Ceritakan sedikit tentang dirimu dan kenapa kamu suka Tausiah JIA... 💖" required></textarea>
+                  <p class="field-help"><span id="reasonCount">0</span>/500 karakter · Tulis dengan santai, yang penting dari hati.</p>
+                </div>
+                <div class="field full">
+                  <label class="checkbox-row" for="consent">
+                    <input id="consent" name="consent" type="checkbox" required />
+                    <span>Saya menyatakan data yang diisi benar dan setuju data ini ditampilkan pada daftar anggota di perangkat ini. Saya sudah membaca <button class="inline-link" type="button" data-open-modal="privacyModal">catatan privasi</button>. <span class="required">*</span></span>
+                  </label>
+                </div>
+              </div>
+              <div class="form-footer">
+                <button type="submit" class="btn btn-primary">✦ Kirim Pendaftaran</button>
+                <button type="reset" class="btn btn-secondary">↺ Reset Form</button>
+                <span class="field-help">Data tersimpan di hatimu.</span>
+              </div>
+              <div id="formMessage" class="form-message" role="status" aria-live="polite"></div>
+            </form>
+          </div>
+
+          <aside class="side-column" aria-label="Info komunitas">
+            <div class="panel side-card">
+              <h3>Kenapa join JIA FC? 🌷</h3>
+              <p>Tempat nyaman untuk saling berbagi dukungan, info, dan kebahagiaan sebagai fans.</p>
+              <ul class="perk-list">
+                <li><span class="perk-icon">🎀</span><span><strong>Meet your people</strong><br />Kenalan dengan fans lain dari berbagai kota.</span></li>
+                <li><span class="perk-icon">🎤</span><span><strong>Tausiah vibes</strong><br />Rayakan kultum favorit bareng-bareng.</span></li>
+                <li><span class="perk-icon">💜</span><span><strong>Positive energy</strong><br />Komunitas ramah, kreatif, dan saling menghargai.</span></li>
+                <li><span class="perk-icon">🌟</span><span><strong>Shine in your way</strong><br />Jadi diri sendiri dan sebarkan cinta.</span></li>
+              </ul>
+            </div>
+            <div class="panel side-card mini-banner">
+              <h3>Our little universe</h3>
+              <p>Setiap starlight punya cahaya yang istimewa. Terima kasih sudah menjadi bagian dari cerita ini!</p>
+              <div class="mini-stats"><span class="mini-stat-icon">💫</span><div><div class="mini-number" id="sideMemberCount">0</div><div class="mini-caption">starlight terdaftar di browser ini</div></div></div>
+            </div>
+            <div class="privacy-note"><span aria-hidden="true">🔒</span><span><strong>Privasi kamu penting.</strong> Warga grub sering Ember bocor, nge-Ghibah, Gosip pokoknya makin sip. Jangan masukkan data sensitif. Data tidak otomatis tersinkron ke perangkat lain.</span></div>
+          </aside>
+        </div>
+      </section>
+
+      <section id="anggota" aria-labelledby="members-title">
+        <div class="section-heading">
+          <div>
+            <div class="section-kicker">✦ Our growing family</div>
+            <h2 id="members-title">Daftar Starlight <span aria-hidden="true">💗</span></h2>
+            <p class="section-note">Setiap nama adalah cahaya baru di semesta JIA FC.</p>
+          </div>
+        </div>
+        <div class="panel members-panel">
+          <div class="members-toolbar">
+            <div class="search-wrap"><span class="search-icon" aria-hidden="true">⌕</span><input id="searchMembers" class="control" type="search" placeholder="Cari nama, kota, provinsi..." aria-label="Cari anggota" /></div>
+            <div class="member-count" id="memberCount">0 starlight</div>
+          </div>
+          <div id="membersGrid" class="members-grid" aria-live="polite"></div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer"><span>Made with <strong>♡</strong> for JIA FANS CLUB INDONESIA</span><span>Keep shining, little starlight ✦ · With Ustadzah Jia v1.0</span></footer>
+  </div>
+
+  <!-- Privacy modal -->
+  <div class="modal-backdrop" id="privacyModal" role="dialog" aria-modal="true" aria-labelledby="privacyTitle" aria-hidden="true">
+    <div class="modal">
+      <div class="modal-head"><div><h3 id="privacyTitle">Catatan Privasi 🔒</h3><p>Transparan dari awal supaya semua starlight merasa aman.</p></div><button class="modal-close" type="button" aria-label="Tutup modal">×</button></div>
+      <div class="modal-content">
+        <h4>Bagaimana data disimpan?</h4>
+        Data pendaftaran disimpan menggunakan <code>localStorage</code> di browser/perangkat yang kamu gunakan. INI CUMA BERCANDA KOK dan belum mengirim data ke server atau database online.
+        <h4>Siapa yang bisa melihat?</h4>
+        Daftar anggota ditampilkan di halaman pada browser ini. Orang lain yang menggunakan perangkat/profil browser yang sama mungkin dapat melihatnya.
+        <h4>Catatan penting</h4>
+        Tidak usah Baper.
+      </div>
+      <div class="modal-actions"><button class="btn btn-primary" type="button" data-close-modal>Baik, mengerti ♡</button></div>
+    </div>
+  </div>
+
+  <!-- Registration success modal -->
+  <div class="modal-backdrop" id="successModal" role="dialog" aria-modal="true" aria-labelledby="successTitle" aria-hidden="true">
+    <div class="modal">
+      <div class="modal-head"><div><h3 id="successTitle">You're officially a starlight! ✨</h3><p>Pendaftaran berhasil disimpan di browser ini.</p></div><button class="modal-close" type="button" aria-label="Tutup modal">×</button></div>
+      <div class="success-art" aria-hidden="true">🐰💗🌟</div>
+      <div class="modal-content" id="successSummary">Selamat bergabung ke keluarga JIA Fans Club Indonesia!</div>
+      <div class="modal-actions"><button class="btn btn-secondary" type="button" data-close-modal>Tutup</button><button class="btn btn-primary" type="button" id="successViewMembers">♡ Lihat daftar anggota</button></div>
+    </div>
+  </div>
+
+  <!-- Member details modal -->
+  <div class="modal-backdrop" id="detailModal" role="dialog" aria-modal="true" aria-labelledby="detailTitle" aria-hidden="true">
+    <div class="modal">
+      <div class="modal-head"><div><h3 id="detailTitle">Profil Starlight ✦</h3><p>Kenalan lebih dekat dengan sesama fans.</p></div><button class="modal-close" type="button" aria-label="Tutup modal">×</button></div>
+      <div id="detailContent" class="modal-content"></div>
+      <div class="modal-actions"><button class="btn btn-secondary" type="button" data-close-modal>Tutup</button></div>
+    </div>
+  </div>
+
+  <!-- Delete confirmation modal -->
+  <div class="modal-backdrop" id="deleteModal" role="dialog" aria-modal="true" aria-labelledby="deleteTitle" aria-hidden="true">
+    <div class="modal">
+      <div class="modal-head"><div><h3 id="deleteTitle">Hapus data anggota? 🥺</h3><p>Tindakan ini akan menghapus data tersebut dari browser ini.</p></div><button class="modal-close" type="button" aria-label="Tutup modal">×</button></div>
+      <div class="modal-content" id="deleteMessage">Kamu yakin ingin menghapus anggota ini?</div>
+      <div class="modal-actions"><button class="btn btn-secondary" type="button" data-close-modal>Batal</button><button class="btn btn-danger" type="button" id="confirmDelete">Ya, hapus</button></div>
+    </div>
+  </div>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+ <script src="script.js"></script>
+</body>
+</html>
